@@ -34,10 +34,6 @@ body {
   background-color: #fbfbfb;
 }
 
-.main {
-  height: 600px;
-}
-
 /* header */
 
 header {
@@ -91,6 +87,7 @@ header a:hover {
 footer {
   height: 366px;
   width: 100%;
+  clear: both;
 }
 
 footer a:hover {
