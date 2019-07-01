@@ -25,6 +25,8 @@ ul {
 
 ul li {
   display: inline-block;
+  position: relative;
+  z-index: 99;
 }
 
 body {
