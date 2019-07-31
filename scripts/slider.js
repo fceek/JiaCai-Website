@@ -32,7 +32,7 @@ function turnPageLeft() {
 }
 
 function turnPageRight() {
-    if (pageCount == 3) return;
+    if (pageCount == 4) return;
     changeDots(false);
     pageCount++;
     let imageUrl = imageNamePrefix + pageCount + ".png";
@@ -48,5 +48,3 @@ function changeDots(isLeft) {
     currentDot.className = currentDot.className.substring(12);
     targetDot.className = "dot-current " + targetDot.className;
 }
-
-

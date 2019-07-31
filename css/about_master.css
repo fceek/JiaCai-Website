@@ -195,3 +195,72 @@
 .aboutus-picright {
   clear: both;
 }
+
+.org-pic {
+  padding-bottom: 120px;
+}
+
+.goal-text {
+  clear: both;
+  padding: 0 100px 100px 100px;
+}
+
+.goal-text div {
+  border-bottom: 1px solid #555;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.goal-text h1,
+.goal-text h2 {
+  padding-bottom: 36px;
+  padding-top: 16px;
+}
+
+.goal-text p {
+  width: 540px;
+}
+
+.goal-value {
+  padding-left: 300px;
+}
+
+.goal-aim {
+  padding-left: 80px;
+}
+
+.goal-title {
+  padding-left: 480px;
+}
+
+.photobook {
+  clear: both;
+  width: 900px;
+  padding-left: 50%;
+  margin-left: -450px;
+  padding-top: 120px;
+}
+
+.photobook h1 {
+  padding-bottom: 24px;
+}
+
+.pb-display img {
+  width: 820px;
+  height: auto;
+  margin-bottom: 120px;
+}
+
+.pb-left,
+.pb-right {
+  float: left;
+  width: 26px;
+  background-color: #ddd;
+  padding-top: 300px;
+  padding-left: 14px;
+  cursor: pointer;
+}
+
+.pb-display {
+  float: left;
+}

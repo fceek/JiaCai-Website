@@ -5,7 +5,8 @@
     <title></title>
     <link rel="stylesheet" href="../../css/master.css">
     <link rel="stylesheet" href="../../css/t_dark.css">
-    <link rel="stylesheet" href="../../css/about_master.css">
+    <link rel="stylesheet" href="../../css/product-master.css">
+    <script src="./frameSwitch.js" charset="utf-8"></script>
   </head>
   <body>
 
@@ -34,21 +35,24 @@
       </div>
     </header>
 
-    <div class="main">
+    <main>
+      <div class="product-wrapper">
+        <div class="product-nav">
 
-      <div class="navbar">
-        <h2><img src="../../resources/image/about.png" alt=""><a href="#">公司概況</a></h2>
-        <h2><img src="../../resources/image/two.png" alt=""><a href="#">發展歷程</a></h2>
-        <h2><img src="../../resources/image/culture.png" alt=""><a href="#">企業文化</a></h2>
-        <h2 class="current"><img src="../../resources/image/orgnization.png" alt=""><a href="#">組織架構</a></h2>
-        <h2><img src="../../resources/image/goal.png" alt=""><a href="#">發展願景</a></h2>
+          <div class="product-nav-list">
+            <h2>按設備分類</h2>
+            <div class="product-nav-hl"></div>
+            <p class="current" id="p1" onclick="changeFrame(1)">CNC走心機</p>
+            <p id="p2" onclick="changeFrame(2)">CNC加工中心</p>
+            <p id="p3" onclick="changeFrame(3)">自動車床件</p>
+            <p id="p4" onclick="changeFrame(4)">CNC走刀機</p>
+          </div>
+        </div>
+        <div class="product-frame">
+          <iframe class="product-frame-it" src="./frames/p1.html"></iframe>
+        </div>
       </div>
-      <div class="aboutus-pic">
-        <img class="org-pic" src="../../resources/image/organizationpic.png" alt="">
-      </div>
-
-
-    </div>
+    </main>
 
 
     <footer>
